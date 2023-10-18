@@ -1,6 +1,6 @@
 This is a chat UI template built on top of Vercel's AI SDK
 
-![Screenshot](https://na.cx/i/324Bthh.png)
+![Screenshot](https://na.cx/i/eN5dvBG.png)
 
 [➡️ Try it here ⬅️](https://chat.colloque.io)
 
