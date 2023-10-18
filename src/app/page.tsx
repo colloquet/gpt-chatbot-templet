@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useChat } from "ai/react";
 import { v4 as uuid } from "uuid";
+import { Github } from "lucide-react";
 
 import ChatFooter from "../components/ChatFooter";
 import ChatBody from "../components/ChatBody";
@@ -40,6 +41,13 @@ export default function Chat() {
         <div className="text-lg font-bold text-zinc-700 dark:text-zinc-200">
           LLM Chatbot Template
         </div>
+        <a
+          href="https://github.com/colloquet/llm-chatbot-templet"
+          target="_blank"
+          title="View source code on Github"
+        >
+          <Github />
+        </a>
       </div>
       <div className="flex flex-1 overflow-hidden">
         <SystemPromptEditor value={systemPrompt} onChange={setSystemPrompt} />

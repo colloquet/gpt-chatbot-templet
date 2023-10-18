@@ -17,6 +17,7 @@
     "autoprefixer": "10.4.15",
     "eslint": "8.49.0",
     "eslint-config-next": "13.5.1",
+    "lucide-react": "^0.288.0",
     "monaco-editor": "^0.43.0",
     "monaco-editor-webpack-plugin": "^7.1.0",
     "next": "13.5.1",
