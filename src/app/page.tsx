@@ -39,10 +39,10 @@ export default function Chat() {
     <main className="m-auto flex h-[100dvh] w-full max-w-screen-2xl flex-col bg-white dark:bg-zinc-900">
       <div className="flex items-center justify-between border-b px-4 py-2 dark:border-zinc-800">
         <div className="text-lg font-bold text-zinc-700 dark:text-zinc-200">
-          LLM Chatbot Template
+          GPT Chatbot Template
         </div>
         <a
-          href="https://github.com/colloquet/llm-chatbot-templet"
+          href="https://github.com/colloquet/gpt-chatbot-templet"
           target="_blank"
           title="View source code on Github"
         >
