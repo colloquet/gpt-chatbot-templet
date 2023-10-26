@@ -22,7 +22,7 @@ export async function POST(req: Request) {
     const response = await replicate.predictions.create({
       stream: true,
       version:
-        "52551facc68363358effaacb0a52b5351843e2d3bf14f58aff5f0b82d756078c",
+        "ac944f2e49c55c7e965fc3d93ad9a7d9d947866d6793fb849dd6b4747d0c061c",
       input: {
         prompt: experimental_buildLlama2Prompt([
           ...prompt,
