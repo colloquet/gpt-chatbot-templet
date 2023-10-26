@@ -28,6 +28,7 @@ export async function POST(req: Request) {
           ...prompt,
           ...messages.filter((message: Message) => message.role !== "system"),
         ]),
+        max_new_tokens: 800,
       },
     });
 
